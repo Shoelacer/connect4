@@ -1,0 +1,60 @@
+.board {
+    border: 1px solid rgb(247, 237, 237);
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 347px;
+    background: blue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -150px;
+    margin-left: -173.5px;
+    border-radius: 20px;
+}
+
+.board div {
+    height: 40px;
+    width: 40px;
+    margin: 4px;
+    border-radius: 20px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+
+.square {
+    background: white;
+}
+
+.player-one {
+    background: rgb(0, 0, 0);
+}
+
+.player-two {
+    background: rgb(255, 0, 0);
+}
+
+.restart {
+    background: rgba(117, 117, 117, 0.8);
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+    margin-top: -100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.restart button {
+    border: none;
+    font-size: xx-large;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
